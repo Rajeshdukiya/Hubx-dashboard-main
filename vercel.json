@@ -1,8 +1,8 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/calculator",
-      "dest": "/api/calculator"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
